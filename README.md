@@ -9,5 +9,3 @@ The Hackernews page has many stories, articles and news that are not that releva
 The project code(``hackernews.py``) has been/ is filled with useful comments that can be used to assert the process of grabbing data from the web page.
 
 In order to understand the flow of control and how the Script operates, you can refer to ``hackernews(py).md`` to understand the working of the Script and ``BeautifulSoup.md`` for information on what features/components of the framework are used in the scripts.
-
-##
