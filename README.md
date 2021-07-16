@@ -51,13 +51,7 @@ https://www.excellarate.com/blogs/web-scraping-introduction-applications-and-bes
 
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors - CSS Selectors
 
-https://pypi.org/project/beautifulsoup4/ - BeautifulSoup Docs
-
-## Contributing
-
-Open to contributions.
-
-While making them, specify the modifications and intended usage/usefulness of the same.
+https://pypi.org/project/beautifulsoup4/ - BeautifulSoup Docs.
 
 ## License 
 
