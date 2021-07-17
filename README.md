@@ -6,7 +6,7 @@ A more simplified and straightforward version of HackerNews. The project uses Be
 
 The Hackernews page has many stories, articles and news that are not that relevant and useful to the community. The page isn't arranged properly to put forward the stories that have the most votes or approval.
 
-##### The news displayed on your terminal(after you run ``hackernews.py``) is sorted by the number of votes of that specific news/article on the site. Only the news having 127 or more votes are displayed systematically on your terminal. The stories are scrapped and collected from the first 2 pages of Hacker News.
+##### The news displayed on your terminal(after you run ``hackernews.py``) is sorted by the number of votes of that specific news/article on the site. Only the news having 218 or more votes are displayed systematically on your terminal. The stories are scrapped and collected from the first 5 pages of Hacker News.
 
 ##### Clone the repo and open the Terminal/CLI in the folder containing ``hackernews.py``. Into the terminal, type in: ``python3 hackernews.py``
 
