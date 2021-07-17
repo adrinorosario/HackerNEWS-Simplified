@@ -1,3 +1,5 @@
+###### Note:- I will review the pull requests. Once i fully review them, i will merge within the upcoming 5 days. Thank you all for your contributions :)
+
 # HackerNEWS-Simplified
 
 A more simplified and straightforward version of HackerNews. The project uses BeautifulSoup, a python web scraping framework to scrape the data from the hackernews website and take ony the most relevant news and displays it on your terminal. 
