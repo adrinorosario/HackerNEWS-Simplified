@@ -1,5 +1,7 @@
 ###### Note:- I will review the pull requests. Once i fully review them, i will merge within the upcoming 5 days. Thank you all for your contributions :)
-
+[![GitHub issues](https://img.shields.io/github/issues/adrinorosario/HackerNEWS-Simplified?logo=git)](https://github.com/adrinorosario/HackerNEWS-Simplified/issues)
+[![GitHub forks](https://img.shields.io/github/forks/adrinorosario/HackerNEWS-Simplified?logo=git)](https://github.com/adrinorosario/HackerNEWS-Simplified/network)
+[![GitHub stars](https://img.shields.io/github/stars/adrinorosario/HackerNEWS-Simplified?logo=github)](https://github.com/adrinorosario/HackerNEWS-Simplified/stargazers)
 # HackerNEWS-Simplified
 
 A more simplified and straightforward version of HackerNews. The project uses BeautifulSoup, a python web scraping framework to scrape the data from the hackernews website and take ony the most relevant news and displays it on your terminal. 
@@ -44,5 +46,4 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors - C
 https://pypi.org/project/beautifulsoup4/ - BeautifulSoup Docs.
 
 ## License 
-
-MIT License 
+[![GitHub license](https://img.shields.io/github/license/adrinorosario/HackerNEWS-Simplified?style=flat-square)](https://github.com/adrinorosario/HackerNEWS-Simplified/blob/main/LICENSE)
