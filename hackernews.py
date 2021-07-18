@@ -15,6 +15,7 @@ res = requests.get('https://news.ycombinator.com/news')
 res2 = requests.get('https://news.ycombinator.com/news?p=2')
 res3 = requests.get('https://news.ycombinator.com/news?p=3')
 res4 = requests.get('https://news.ycombinator.com/news?p=4')
+res5 = requests.get('https://news.ycombinator.com/news?p=5')
 # using the getrequests to  get the information we want from the page
 # --print(res)  # output--> <Response [200]>
 
@@ -26,6 +27,7 @@ soup_obj = BeautifulSoup(res.text, 'html.parser')  # creates soup object
 soup_obj2 = BeautifulSoup(res2.text, 'html.parser')
 soup_obj3 = BeautifulSoup(res3.text, 'html.parser')
 soup_obj4 = BeautifulSoup(res4.text, 'html.parser')
+soup_obj5 = BeautifulSoup(res5.text, 'html.parser')
 # gave string with all data
 # now we parse it; we tell it to modify the string data to HTML that we can use
 
@@ -59,9 +61,12 @@ links3 = soup_obj3.select('.storylink')
 subtext3 = soup_obj3.select('.subtext')
 links4 = soup_obj4.select('.storylink')
 subtext4 = soup_obj4.select('.subtext')
+links5 = soup_obj5.select('.storylink')
+subtext5 = soup_obj5.select('.subtext')
+
 # now we combine both to one[links and subtext]
-mega_links = links + links2 + links3 + links4
-mega_subtext = subtext + subtext2 + subtext3 + subtext4
+mega_links = links + links2 + links3 + links4 + links5
+mega_subtext = subtext + subtext2 + subtext3 + subtext4 + subtext5
 # we want the subtext instead of points. It's what comes underneath the titles
 # all the links have subtext, but no all have scores
 
@@ -120,5 +125,6 @@ def create_custom_hackernews(links, subtext):
     return sort_stories_by_votes(hackernews)
 
 
+pprint.pprint('A Simplified and Nicer Version of Hacker News')
 pprint.pprint(create_custom_hackernews(mega_links, mega_subtext))
 # makes the printed data or prints the output in a neat way
