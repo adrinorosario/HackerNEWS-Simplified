@@ -38,7 +38,9 @@ python3 hackernews.py
 You can also build the docker image using the command 
 ```bash
 docker build . -t hackernews
-```  and then run it using 
+```  
+and then run it using 
+
 ```bash
 docker run hackernews
 ```
