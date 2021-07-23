@@ -20,7 +20,10 @@ In order to understand the flow of control and how the Script operates, you can 
 ![capture](https://user-images.githubusercontent.com/83050257/125961036-c2812364-4fac-4066-b44f-8d3c3d43f61c.gif)
 
 ## Requirements
-Install requirements by running the the following command: `pip install -r requirements.txt`
+Install requirements by running the the following command: 
+```bash
+pip install -r requirements.txt
+```
 
 ### Installation 
 
@@ -28,8 +31,17 @@ You can either clone or fork this repo onto your device. Then again, make sure a
 
 ### Usage
 
-After installation, open your Terminal/CLI in the directory/folder containing the script. Type in or copy/paste the following command: ```python3 hackernews.py```.
-You can also build the docker image using the command ```docker build . -t hackernews``` and then run it using ```docker run hackernews```
+After installation, open your Terminal/CLI in the directory/folder containing the script. Type in or copy/paste the following command: 
+```bash
+python3 hackernews.py
+```
+You can also build the docker image using the command 
+```bash
+docker build . -t hackernews
+```  and then run it using 
+```bash
+docker run hackernews
+```
 
 Then again, the output will have the stories with the most votes(>=127). When you check them on the hackernews page, they won't be at the top and you'll have to scroll down or sometimes, navigate to the 2nd page to find them.
 
