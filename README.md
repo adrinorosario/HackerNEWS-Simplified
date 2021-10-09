@@ -1,8 +1,8 @@
-###### Note:- I will review the pull requests. Once i fully review them, i will merge within the upcoming 5 days. Thank you all for your contributions :)
-[![GitHub issues](https://img.shields.io/github/issues/adrinorosario/HackerNEWS-Simplified?logo=git)](https://github.com/adrinorosario/HackerNEWS-Simplified/issues)
-[![GitHub forks](https://img.shields.io/github/forks/adrinorosario/HackerNEWS-Simplified?logo=git)](https://github.com/adrinorosario/HackerNEWS-Simplified/network)
-[![GitHub stars](https://img.shields.io/github/stars/adrinorosario/HackerNEWS-Simplified?logo=github)](https://github.com/adrinorosario/HackerNEWS-Simplified/stargazers)
-# HackerNEWS-Simplified
+[![GitHub license](https://img.shields.io/github/license/adrinorosario/HackerNEWS-Simplified?style=for-the-badge)](https://github.com/adrinorosario/HackerNEWS-Simplified/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/adrinorosario/HackerNEWS-Simplified?style=for-the-badge)](https://github.com/adrinorosario/HackerNEWS-Simplified/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/adrinorosario/HackerNEWS-Simplified?style=for-the-badge)](https://github.com/adrinorosario/HackerNEWS-Simplified/network)
+[![GitHub issues](https://img.shields.io/github/issues/adrinorosario/HackerNEWS-Simplified?style=for-the-badge)](https://github.com/adrinorosario/HackerNEWS-Simplified/issues)
+# HackerNEWS-Simplified✔
 
 A more simplified and straightforward version of HackerNews. The project uses BeautifulSoup, a python web scraping framework to scrape the data from the hackernews website and take ony the most relevant news and displays it on your terminal. 
 
@@ -47,7 +47,7 @@ docker run hackernews
 
 Then again, the output will have the stories with the most votes(>=127). When you check them on the hackernews page, they won't be at the top and you'll have to scroll down or sometimes, navigate to the 2nd page to find them.
 
-## Support
+## Support🚀
 
 Useful links:
 
@@ -58,6 +58,3 @@ https://www.excellarate.com/blogs/web-scraping-introduction-applications-and-bes
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors - CSS Selectors
 
 https://pypi.org/project/beautifulsoup4/ - BeautifulSoup Docs.
-
-## License 
-[![GitHub license](https://img.shields.io/github/license/adrinorosario/HackerNEWS-Simplified?style=flat-square)](https://github.com/adrinorosario/HackerNEWS-Simplified/blob/main/LICENSE)
