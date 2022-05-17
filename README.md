@@ -49,8 +49,6 @@ Then again, the output will have the stories with the most votes(>=127). When yo
 
 ## Support🚀
 
-Useful links:
-
 https://news.ycombinator.com/ - Hacker News
 
 https://www.excellarate.com/blogs/web-scraping-introduction-applications-and-best-practices/#:~:text=Web%20scraping%20typically%20extracts%20large,show%20data%20from%20a%20website. - Introduction to Web Scraping and best practices
